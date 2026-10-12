@@ -1,0 +1,168 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #181a20;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    gap: 24px;
+    background: #181a20;
+}
+
+.logo img {
+    display: block;
+    width: 105px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex: 1;
+}
+
+.nav-links a {
+    color: #eaecef;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search {
+    color: #eaecef;
+    font-size: 29px;
+    margin-right: 8px;
+}
+
+.login {
+    color: #eaecef;
+    background: #2b3139;
+    padding: 9px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.signup {
+    color: #181a20;
+    background: #fcd535;
+    padding: 9px 13px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+
+.hero {
+    background: #181a20;
+    min-height: 650px;
+    padding: 65px 0 60px 19%;
+    color: #f0f0f0;
+    display: flex;
+}
+
+.hero-content {
+    width: 510px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.12;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.hero h1 span {
+    display: block;
+}
+
+.hero h1 .number {
+    color: #f0b90b;
+}
+
+.hero p {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 12px 0 28px;
+}
+
+.signup-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.signup-form input {
+    width: 242px;
+    height: 42px;
+    padding: 0 13px;
+    background: #181a20;
+    border: 1px solid #474d57;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+}
+
+.signup-form button {
+    width: 155px;
+    height: 42px;
+    background: #fcd535;
+    color: #181a20;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card-1{
+    background-color: #474d57;
+    height: 320px;
+    border-radius: 6%;
+}
+
+
+.card-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-1-nav{
+    color: #f0f0f0;
+    display: flex;
+    gap: 34px;
+    margin-left: 20px;
+}
+
+.card-1-items-1{
+    color: #eaecef;
+}
+
+.card-1-items-2{
+    color: #eaecef;
+}
+
+.card-1-items-3{
+    color:green;
+}
